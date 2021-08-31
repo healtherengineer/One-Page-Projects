@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramazan KAHRAMAN - Web Develompent Project #1</title>
+    <meta name="keywords" content="Ramazan , programming , Java">
+    <meta name="description" content="Ramazan's career page">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Tablet için-->
+    <link rel="stylesheet" media="(max-width:768px)" href="css/tablet.css">
+    <link rel="stylesheet" media="(max-width:500px)" href="css/mobil.css"> 
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <!--FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+
+
+
+</head>
+<body>
+    
+    <header class="bg-dark-blue">
+        
+        <div class="container">
+            
+            <nav id="navbar">
+                <h1 class="small-heading">Ramazan KAHRAMAN</h1>
+                <ul>
+                    <li><a href="#home"><i class="far fa-compass"></i>Ana Sayfa</a></li>
+
+                    <li><a href="#courses"><i class="fas fa-book"></i>Kurslar</a></li>
+                    <li><a href="#contact"><i class="fas fa-phone-alt"></i>İletişim</a></li>
+                    <li><a href="#settings"><i class="fas fa-tools"></i>Ayarlar </a></li>
+                </ul>
+                <i class="fas fa-bars navbar-tool" ></i>
+            </nav>
+        </div>
+        
+    </header>
+    
+    <section id="home">   
+
+
+        <img src="images/20191206_085426.jpg" alt="Ege'nin Resmi">
+        <div class="name">
+            <h2 class="big-heading">Ramazan KAHRAMAN</h2>
+            <p class="text-center mr-software"> Computer Engineer | Co-Founder of MR Software</p>
+        </div>
+        <a  class="btn btn-primary" href="https://www.linkedin.com/in/ramazan-kahraman-10a584185/" target="_blank"><i class="fab fa-linkedin"></i> Linkedin'e Git</a>
+
+    </section>
+    
+    <section class=" training bg-dark-blue">
+        <h3 class="big-heading  text-center">Projeler</h3>
+        <div class="items">
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                <h3>Yumak Oyunu</h3>
+             
+                <p>Mustafa Zaimoğlu ile birlikte Pair Programming konseptine bağlı kalarak Java 'da Oyun Programladık.</p>
+            </article>
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                <h3>Online Kurslar</h3>
+              
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae, ratione.</p>
+            </article>
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                <h3>Konferanslar</h3>
+              
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae, ratione.</p>
+            </article>
+
+        </div>
+
+    </section>
+
+
+   <section id="courses">
+
+    <div class="courses">
+        <div class="course">
+            <div class="course-image">
+                <img src="images/python.jpg" alt="Python kursu">
+                <span>%90 indirim</span>
+            </div>
+       
+        <div class="course-info">
+            <div class="title course-description">
+                (40+ Saat) Python | Sıfırdan İleri Seviye Programlama (2020)
+            </div>
+            <div class="description course-description">
+                (40+ Saat) Python | Sıfırdan İleri Seviye Programlama (2020)
+            </div>
+
+            <div class="instructor">
+                Mustafa Murat Coşkun,Yazılım Bilimi
+            </div>
+            <div class="rating">
+                4.6 | (19990 Oylama)
+            </div>
+        </div>
+        </div>
+
+        <!-- Course 2-->
+        <div class="course">
+            <div class="course-image">
+                <img src="images/javascript.jpg" alt="">
+                <span>%90 indirim</span>
+            </div>
+            <div class="course-info">
+                <div class="title course-description">
+                    Komple Modern JavaScript Kursu
+
+                </div>
+                <div class="description course-description">
+                    Komple Modern JavaScript Kursu - ES6+
+
+                </div>
+                <div class="instructor">
+                 Mustafa Murat Coşkun,Yazılım Bilimi
+                </div>
+                <div class="rating">
+                    4.7 | (2000 Oylama)
+                </div>
+            </div>
+
+
+
+        </div>
+        <!--Course 3-->
+
+        <div class="course">
+
+            <div class="course-image">
+                <img src="images/java.jpg" alt="Java">
+                <span>%90 İndirim</span>
+            </div>
+
+            <div class="course-info">
+                <div class="title course-description">
+                    Komple Java Geliştirici Kursu
+                </div>
+                <div class="description course-description">
+                    Komple Java Geliştirici Kursu | Sıfırdan Java Öğrenin
+
+                </div>
+                <div class="instructor">
+                    Mustafa Murat Coşkun,Yazılım Bilimi
+                </div>
+                <div class="rating">
+                    4.6 | (7000 Oylama)
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+   </section>
+
+   <footer id="contact" class="bg-dark-blue">
+
+    <div class="contact-form">
+
+        <form>
+
+            <h4 class="medium-heading text-center">Bana Ulaş</h4>
+            <div class="form-group">
+                <label for="name"> İsim </label>
+                <input
+                type="text"
+                class="form-control"
+                name="name"
+                id="name"
+                placeholder="İsminiz"
+              />
+            </div>
+    
+            <div class="form-group">
+                <label for="mail"> E-mail </label>
+                <input
+                type="text"
+                class="form-control"
+                name="name"
+                id="mail"
+                placeholder="Mail Adresiniz"
+              />
+            </div>
+    
+            <div class="form-group">
+                <label for="message"> Mesajınızı Giriniz </label>
+               <textarea  class="form-control" id="message"  rows="10"></textarea>
+            </div>
+    
+            <button class="btn-fullwidth" > Gönder </button>
+    
+    
+        </form>
+
+        <ul class="social-media">
+            <li><a href="#"> <i class="fab fa-facebook"></i></a> </li>
+            <li><a href="#"> <i class="fab fa-twitter"></i></a> </li>
+            <li><a href="#"> <i class="fab fa-linkedin"></i></a> </li>
+
+        </ul>
+    </div>
+    
+    
+
+   </footer>
+    
+</body>
+</html>

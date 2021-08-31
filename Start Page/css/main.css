@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all .5s ease;
+    transition-delay:0s;
+}
+body{
+    z-index: 1;
+    font-family: "Montserrat", sans-serif;
+   
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    min-width: 100%;
+    position: fixed;
+    z-index: 2 !important;
+    background: #F44336;
+    box-shadow: 2px 0px 5px black;
+    padding: 20px;
+    
+}
+
+.private-icon{
+    font-size: 1.5rem;
+    display: none;
+    
+}
+.header ul {
+    display: flex;
+    
+    text-align: center;
+    align-items: center;
+    list-style-type: none;
+}
+.header ul .private-nav a{
+    background: #ffffff;
+    color: black;
+}
+.header ul .private-nav a:hover{
+    background: #666666;
+
+}
+.header ul li{
+    
+  margin: 0.5rem;
+  margin-left: 0;
+}
+.header ul li a{
+    text-decoration: none;
+    padding: 0.75rem;
+    color: white;
+}
+.header ul li a:hover{
+    background: white;
+   color: black;
+   
+}
+
+.description-home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-height: 420px;
+   
+
+
+}
+
+.description-home h1{
+    font-size: 4rem;
+    letter-spacing: 2px;
+    color: #ffffff;
+        margin-top:120px;
+
+}
+.description-home p{
+    font-weight: 400px;
+    margin-top: 50px;
+}
+.description-home .btn-start{
+  padding:15px 40px;
+  margin-top: 50px;
+  margin-bottom:50px ;
+  text-align: center;
+  background: black;
+  color: azure;
+  text-decoration: none;
+
+}
+.description-home .btn-start:hover{
+    background: lightgray;
+    color: black;
+  }
+  .first-description{
+      display: flex;
+      flex-direction: column;
+      width: 75%;
+      margin: 40px;
+      
+  }
+  .first-para1{
+     margin-bottom: 50px;
+      font-weight: bold;
+  }
+  .first-para2{
+      opacity: 0.8;
+  }
+  .post-footer{
+      background: #666666;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      color: blanchedalmond;
+      min-height:100px;
+      font-size: 1.5rem;
+
+  }
+  .footer{
+      opacity: 0.8;
+      background: #FFFFFF;
+      min-height: 200px;
+      text-align: center;
+      display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+  }
+  .footer .icon-group{
+
+    font-size: 1.5rem;
+    margin-top: 50px;
+  }
+  .footer .icon-group i:hover{
+      opacity: 0.6;
+  }
+  .footer p{
+      margin: 50px;
+  }
+ 

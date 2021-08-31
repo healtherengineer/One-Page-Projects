@@ -1,0 +1,128 @@
+/* Text */
+.text-center{
+    text-align: center;
+}
+/* Heading */
+.small-heading{
+    font-size: 1.25rem;
+}
+.medium-heading{
+ font-size: 1.5rem;
+}
+
+.big-heading{
+    font-size: 1.75rem;
+
+}
+/* Colors */
+
+.bg-dark-blue{
+    background: #062e51;
+}
+.bg-light-blue{
+    background-color: #336ea2;
+}
+.bg-light {
+    background: #fff;
+  }
+
+.container {
+    max-width: 1450px;
+    margin: 0 auto;
+    
+  }
+  .btn{
+    letter-spacing: 0.1rem;
+    margin:1rem;
+    padding: 0.75rem;
+    border-radius: 8px;
+    color: #fff;
+    border: 1px solid #336ea2;
+    align-self: center;
+  }
+  .btn-primary{
+      background: #336ea2;
+  }
+  .btn-primary:hover {
+    color: #336ea2;
+    background: #fff;
+  }
+  .btn-dark {
+    background: #333;
+  }
+  .btn-dark:hover {
+    color: #333;
+    background: #fff;
+    border: 0.5px solid #333;
+  }
+  .btn-fullwidth{
+    letter-spacing: 0.1rem;
+    padding: 0.5rem;
+    border-radius: 8px;
+    color: #fff;
+    border: 1px solid #336ea2;
+    align-self: center;
+    width: 100%;
+    color: black;
+    text-align: center;
+  }
+  .btn-fullwidth:hover{
+   background: #336ea2;
+   color: #fff;
+  }
+  .mr-software{
+      color: yellow;
+      background:#333;
+      opacity: 0.8;
+      border: 1px solid black;
+      border-radius: 8px;
+      letter-spacing: 2px;
+  }
+  .mr-software:hover{
+      background: yellow;
+      color:black;
+      opacity: 1;
+
+  }
+  .course-description{
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    margin-bottom: 0.25rem;
+  }
+  #contact{
+   padding: 1rem;
+  }
+  #contact .contact-form{
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #contact .contact-form form .form-group label{
+    display: block;
+    color: #fff;
+    font-weight: 800;
+  }
+  #contact .contact-form form .form-group .form-control{
+    width: 100%;
+    padding: 0.8rem;
+    font-weight: 800;
+    resize: none;
+    border-radius: 0.5rem;
+  }
+  #contact ul li {
+    list-style-type: none;
+  }
+  .social-media{
+    display: flex;
+    justify-content: center;
+  }
+  .social-media li a i{
+    margin: 0.5rem;
+    font-size: 1.5rem;
+  }
+  .social-media li a:hover{
+    opacity: 0.8;
+  }

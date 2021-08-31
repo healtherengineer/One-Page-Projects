@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    
+}
+span{
+    letter-spacing: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    color: #000!important;
+    letter-spacing: 4px;
+    padding: 1rem;
+    z-index: 99;
+  
+}
+.navbar a{
+    text-decoration: none !important;
+    padding: 0.5rem;
+}
+.navbar a:hover{
+   background: #ccc;
+   color: #000;
+}
+.navbar ul{
+    display: flex;
+    margin-right: 0.5rem;
+    margin-bottom: 0;
+
+}
+.navbar ul li{
+    list-style-type: none;
+    margin-right: 0.5rem;
+    
+}
+.navbar ul li a{
+    text-decoration: none !important;
+    padding: 0.5rem;
+    color: #000;
+    
+   
+}
+.img-container{
+    margin: 0 10px;
+    position: relative;
+}
+.img-container span{
+    position: absolute;
+    top: 400px;
+    left: 750px;
+}
+
+.enterance{
+  
+    background-image: url("https://www.w3schools.com/w3images/architect.jpg"); /* The image used */
+    height: 800px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+}
+.container-1{
+    max-width: 100%;
+    margin-left:20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    border-radius: 0;
+}
+.card{
+    position: relative;
+    margin-bottom: 10px;
+    letter-spacing: 0px;
+    border-radius: 0;
+}
+.card .sticker span{
+    letter-spacing: 0px;
+    position: absolute;
+    top: 0;
+    background: #000;
+    color: #FFFFFF;
+}
+
+.gray-scale{
+    filter: grayscale(75%);
+    
+}
+.card-img-top{
+    border-radius: 0;
+}
+.card-description{
+    font-style: italic;
+    opacity: 0.9;
+}
+.btn:hover{
+    color: #000!important;
+    background-color: #ccc!important;
+}
+.contact-input{
+    width: 100%;
+    padding: 0.5rem;
+    margin: 10px;
+}
+.btn-contact{
+    background-color: #000;
+    color: #FFFFFF;
+
+
+}
+.container{
+    max-width: 100%;
+}
+.foot{
+    background-color: #000;
+    color: #FFFFFF;
+
+}

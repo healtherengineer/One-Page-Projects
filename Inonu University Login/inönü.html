@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İnönü Obs</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            background:#B0B0B0 ;
+        }
+        .maincontainer{
+            width: 100%;
+            min-height: 100px;
+            background-color:#121e2d;
+            color: white;
+            display: flex;
+            border: 2px solid black;
+            justify-content: space-between;
+        
+        }
+
+        img{
+            border-radius: 100px;
+            border: 1px solid yellow;
+            margin: 20px;
+            float: left;
+        }
+        .span1{
+            justify-self: flex-end;
+            align-self: flex-end;
+            margin-left: 900px;
+        }
+    
+        .mid-section{
+            width: 100%;
+            background-color: white;
+            height: 450px;
+            display:flex;
+            justify-content: space-between;
+            
+        }
+        .right-side{
+            width: 50%;
+            background-color: white;;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            
+        }
+        .left-side{
+            width: 50%;
+            display: flex;
+            align-items: center;
+            background-color: white;
+            border-right: 5px solid blue ;
+        }
+        form{
+            margin-left: 50px;
+            margin-bottom: 100px;
+        }
+        .password{
+            margin-left: 70px;
+        }
+
+        #main-title{
+            margin-left: 25px;
+            margin-top: 25px;
+        }
+
+    </style>
+   <!-- Google fonts-->
+   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+   <!--FontAwesome -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+
+
+</head>
+<body>
+
+    <div class="maincontainer">
+    
+        <div class="logo" style="display: inline-flex;">
+            <img style="width: 100px;" src="https://universitetercihleri.com/uni/logo/1120_160.png" alt="logo">
+            
+        </div>
+        <span id="main-title" style="color:White;font-family:Verdana;font-size:20pt;text-decoration:none;letter-spacing: 0.1pc;">İnönü Üniversitesi</span>
+     
+
+        <span class="span1" id="lblAppName" style="color:White;font-family:Verdana;font-size:13pt;text-decoration:none;letter-spacing: 0.1pc; text-shadow: 1px 1px 1px #000, 3px 3px 5px black;">Öğrenci Bilgi Sistemi</span>
+
+
+    </div>
+           
+    <div style=" background:#B0B0B0 ; width: 100%;">
+
+    </div>
+
+    <div class="mid-section">
+        <div class="left-side">
+            <form action="/action_page.php">
+                <div>
+                    <label for="fname">Okul Numarası :</label>
+                    <input type="text" id="fname" name="fname"><br><br>
+                </div>
+                <div class="password">
+                    <label for="lname">Şifre: </label>
+                    <input type="password" id="lname" name="lname"><br><br>
+                </div>
+                  <i class="fa-fa pencil-alt"> a</i>
+                <input style="margin-left: 180px; width: 100px; height: 50px;" type="submit" value="Giriş Yap">
+              </form>
+        </div>
+
+        <div class="right-side">
+            <p>DİĞER ÜNİVERSİTELERİN YAZ OKULLARINDAN DERS ALACAK ÖĞRENCİLERİMİZE DUYURULUR
+
+
+                Öğrencilerimizin, diğer Üniversitelerin yaz okullarından alacağı derslerin birim başkanlıkları tarafından onay formunun kabul işlemlerinin online olarak yapılabilmektedir. Online başvuru ekranından tarafınızdan onaylı formun yüklenmesi halinde, birim başkanlıkları tarafından kontrol edilip kabul işlemi sistem tarafından Fakülte/Yüksekokul ve Meslek Yüksekokul öğrenci işleri personeli tarafından yapılacaktır.
+                
+                Yaz okulundan Onay formu indirmek için tıklayınız 
+                
+                Onayladığınız formun kontrol edilmesi ve online başvuru sayfası için tıklayınız.
+                
+                Belirlenen tarih aralıklarında sınavlar online olarak yapılacaktır. Derslerinize ait sınavlarınızda sorun yaşamamanız için Sınav klavuzunu incelemeniz ve adımları takip etmeniz önem arzetmektedir. Sınav Klavuzu için tıklayınız.</p>
+        </div>
+
+        
+
+    </div>
+
+          
+            <footer style="  background-color:#121e2d;">
+                <div style="  background-color:#121e2d; width: 100%; height: 100px;">
+                <h4 style="text-align: center; color: #B0B0B0;"> @CopyRight by Ege </h4> 
+                 
+                </div>
+
+
+    </footer>
+</body>
+</html>

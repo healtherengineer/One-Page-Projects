@@ -1,0 +1,27 @@
+.bg-red{
+    background: #F44336;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+.container-post{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1100px;
+
+}
+.text-center{
+    text-align: center;
+}
+.icon{
+      width: 25%;
+     font-size: 190px; 
+     color: red;
+     opacity: 0.8;
+     margin-top: 70px;
+     margin-left: 30px;
+}
+.bg-gray{
+    background:#F1F1F1 ;
+}
